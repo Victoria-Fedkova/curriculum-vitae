@@ -118,7 +118,7 @@ h4 {
 /* мэйн */
 
 .main {
-    padding: 100px 100px;
+    padding: 60px 100px 50px;
 }
 
 .education-list,
@@ -186,4 +186,8 @@ h4 {
 
 .education {
     margin-bottom: 50px;
+}
+
+.education.odd {
+    margin-bottom: 0;
 }
