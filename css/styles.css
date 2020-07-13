@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f5f7fa;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+address {
+    font-style: normal;
+    /* color: #727983; */
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    margin-top: 30px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+ul,
+li,
+p,
+img,
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    width: 1200px;
+    /* height: 1319px; */
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    width: 370px;
+    background-color: #1d2b41;
+    padding: 40px 28px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.photo {
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/photo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.address-list .item:not(:nth-last-child(1)) {
+    margin-bottom: 10px;
+}
+
+.skills.list .item:not(:nth-last-child(1)) {
+    margin-bottom: 10px;
+}
+
+.skills.list .item {
+    color: #ff6b08;
+}
+
+.skills.list span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar .title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.sidebar .subtitle {
+    /* color: #a8a8a8; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2;
+    color: #ff6b08;
+}
+
+
+/* мэйн */
+
+.main {
+    padding: 100px 100px;
+}
+
+.education-list,
+.expirience-list,
+.address-list,
+.skills.list.odd {
+    list-style: none;
+}
+
+.skills.list.odd {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.main .title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.expirience {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.expirience-list-subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.48px;
+}
+
+.expirience-list .item:not(:nth-last-child(1)) {
+    margin-bottom: 25px;
+}
+
+.duties.list .item:not(:nth-last-child(1)) {
+    margin-bottom: 5px;
+}
+
+.color-text {
+    color: #ff6b08;
+}
+
+.dates {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.36px;
+    color: #a8a8a8;
+    margin-bottom: 15px;
+}
+
+.education-list-subtitle {
+    margin-bottom: 10px;
+    color: #ff6b08;
+}
+
+.education {
+    margin-bottom: 50px;
+}
