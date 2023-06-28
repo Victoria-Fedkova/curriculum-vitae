@@ -12169,18 +12169,6 @@ a.theme-btn-on-bg:active,
   color: rgba(255, 255, 255, 0.9);
   height: 220px;
 }
-.resume-picture-holder {
-  /* width:30%; */
-  /* border-radius: 50%; */
-  overflow: hidden;
-}
-.resume-header .picture {
-  height: 220px;
-
-  width: 100%;
-  display: block;
-  object-fit: contain;
-}
 
 .resume-header .name {
   font-size: 2.25rem;
@@ -12348,5 +12336,11 @@ a.theme-btn-on-bg:active,
   .resume-header .picture {
     width: 120px;
     border-radius: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-header .picture {
+    height: 220px;
   }
 }
